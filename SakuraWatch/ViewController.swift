@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     let formatterDate = DateFormatter()//日付を表示する形を決めるクラス
     @IBOutlet var dateLabel:UILabel!//日付を表示するUILabel
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         //1秒ごとにtime()メソッドを呼ぶタイマー

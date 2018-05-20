@@ -14,6 +14,11 @@
 		1853B0BA20B0710D0028774A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1853B0B820B0710D0028774A /* LaunchScreen.storyboard */; };
 		1853B0C520B0710D0028774A /* SakuraWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1853B0C420B0710D0028774A /* SakuraWatchTests.swift */; };
 		1853B0D020B0710D0028774A /* SakuraWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1853B0CF20B0710D0028774A /* SakuraWatchUITests.swift */; };
+		1853B0E220B0BF780028774A /* SakuraWatch_night.png in Resources */ = {isa = PBXBuildFile; fileRef = 1853B0DD20B0BF780028774A /* SakuraWatch_night.png */; };
+		1853B0E320B0BF780028774A /* SakuraWatch_evning.png in Resources */ = {isa = PBXBuildFile; fileRef = 1853B0DE20B0BF780028774A /* SakuraWatch_evning.png */; };
+		1853B0E420B0BF780028774A /* SakuraWatch_afternoon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1853B0DF20B0BF780028774A /* SakuraWatch_afternoon.png */; };
+		1853B0E520B0BF780028774A /* SakuraWatch_moning.png in Resources */ = {isa = PBXBuildFile; fileRef = 1853B0E020B0BF780028774A /* SakuraWatch_moning.png */; };
+		1853B0E820B0C1260028774A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1853B0E720B0C1260028774A /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,12 @@
 		1853B0CB20B0710D0028774A /* SakuraWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SakuraWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1853B0CF20B0710D0028774A /* SakuraWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SakuraWatchUITests.swift; sourceTree = "<group>"; };
 		1853B0D120B0710D0028774A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1853B0DD20B0BF780028774A /* SakuraWatch_night.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SakuraWatch_night.png; sourceTree = SOURCE_ROOT; };
+		1853B0DE20B0BF780028774A /* SakuraWatch_evning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SakuraWatch_evning.png; sourceTree = SOURCE_ROOT; };
+		1853B0DF20B0BF780028774A /* SakuraWatch_afternoon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SakuraWatch_afternoon.png; sourceTree = SOURCE_ROOT; };
+		1853B0E020B0BF780028774A /* SakuraWatch_moning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SakuraWatch_moning.png; sourceTree = SOURCE_ROOT; };
+		1853B0E720B0C1260028774A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = SOURCE_ROOT; };
+		1853B0E920B0C51B0028774A /* NeueHansKendrick-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeueHansKendrick-Regular.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +112,12 @@
 				1853B0B120B0710B0028774A /* ViewController.swift */,
 				1853B0B320B0710B0028774A /* Main.storyboard */,
 				1853B0B620B0710D0028774A /* Assets.xcassets */,
+				1853B0DF20B0BF780028774A /* SakuraWatch_afternoon.png */,
+				1853B0DE20B0BF780028774A /* SakuraWatch_evning.png */,
+				1853B0E920B0C51B0028774A /* NeueHansKendrick-Regular.otf */,
+				1853B0E020B0BF780028774A /* SakuraWatch_moning.png */,
+				1853B0DD20B0BF780028774A /* SakuraWatch_night.png */,
+				1853B0E720B0C1260028774A /* icon.png */,
 				1853B0B820B0710D0028774A /* LaunchScreen.storyboard */,
 				1853B0BB20B0710D0028774A /* Info.plist */,
 			);
@@ -229,9 +246,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1853B0E320B0BF780028774A /* SakuraWatch_evning.png in Resources */,
 				1853B0BA20B0710D0028774A /* LaunchScreen.storyboard in Resources */,
+				1853B0E520B0BF780028774A /* SakuraWatch_moning.png in Resources */,
 				1853B0B720B0710D0028774A /* Assets.xcassets in Resources */,
+				1853B0E820B0C1260028774A /* icon.png in Resources */,
 				1853B0B520B0710B0028774A /* Main.storyboard in Resources */,
+				1853B0E220B0BF780028774A /* SakuraWatch_night.png in Resources */,
+				1853B0E420B0BF780028774A /* SakuraWatch_afternoon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,7 +453,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ESSH8V8HD4;
 				INFOPLIST_FILE = SakuraWatch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -439,7 +463,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.SakuraWatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -448,7 +472,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ESSH8V8HD4;
 				INFOPLIST_FILE = SakuraWatch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,7 +482,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.SakuraWatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
